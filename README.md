@@ -34,7 +34,7 @@ Data Structures used:
 <img src="https://latex.codecogs.com/gif.latex?\overrightarrow{q_{m}}&space;=&space;\alpha\overrightarrow{q_{0}}&space;&plus;&space;\beta&space;\frac{1}{|D_{r}|}\sum_{\overrightarrow{d_{j}}\epsilon&space;D_{r}}^{}\overrightarrow{d_{j}}&space;-&space;\gamma&space;\frac{1}{|D_{nr}|}\sum_{\overrightarrow{d_{j}}\epsilon&space;D_{nr}}^{}\overrightarrow{d_{j}}" title="\overrightarrow{q_{m}} = \alpha\overrightarrow{q_{0}} + \beta \frac{1}{|D_{r}|}\sum_{\overrightarrow{d_{j}}\epsilon D_{r}}^{}\overrightarrow{d_{j}} - \gamma \frac{1}{|D_{nr}|}\sum_{\overrightarrow{d_{j}}\epsilon D_{nr}}^{}\overrightarrow{d_{j}}" 
 />
 
-where q<sub>0</sub> is the original query vector, Dr and Dnr are the set of known relevant and nonrelevant documents respectively, and α, β, and γ are weights attached to each term
+where q<sub>0</sub> is the original query vector, D<sub>r</sub> and D<sub>nr</sub> are the set of known relevant and nonrelevant documents respectively, and α, β, and γ are weights attached to each term
 
 **Assumptions**
 1. User has to have sufﬁcient knowledge to be able to make an initial query that is actually close to the document they desire
