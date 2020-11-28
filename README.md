@@ -2,8 +2,6 @@
 
 **Objective**: To implement a domain specific search engine based on a probablistic information system that retrieves the top 10 relevant documents based on the user's input phrase/query. As the chosen domain is healthcare, recall is considered more important than precision for the search results. Hence Rocchio's algorithm is used for relevance feedback mechanism.
 
-**Model used**: PageRank. The first and best-known algorithm used by Google Search to rank web pages in their search engine results. PageRank was named after Larry Page, one of the founders of Google. PageRank works by counting the number and quality of links to a page to determine a rough estimate of how important the website is. The underlying assumption is that more important websites are likely to receive more links from other websites.<sup>[1]</sup>
-
 **Corpus used**: A Full-Text Learning to Rank Dataset for Medical Information Retrieval by Vera Boteva and Demian Gholipour and Artem Sokolov and Stefan Riezler<sup>[2]</sup> with a split of 80-10-10 for training-validation-test purpose. This dataset was chosen because the ranking models trained on this dataset by far outperformed the standard bag-of-words retrieval model. 
 
 **Pre-processing**
